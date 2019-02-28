@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">图软掌上运维</string>
+    <string name="action_settings">发送邮件</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dirsource">坐标采集工具结果</string>
+    <string name="mk">(已采集)</string>
+    <string name="Pwd">请输入密码</string>
+    <string name="lname">请输入用户名</string>
+
+    <!--权限提醒-->
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="gpsNotifyMsg">当前应用需要打开定位功能。\n\n请点击\"设置\"-\"定位服务\"-打开定位功能。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+
+
+    <string name="menu_settings">Settings</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+
+    <string-array name="Pro_Name1">
+        <item>图岳</item>
+        <item>图软</item>
+    </string-array>
+
+    <string-array name="Pro_Name2">
+        <item>电子路牌</item>
+        <item>GPS外设</item>
+        <item>LCD车内导乘屏</item>
+        <item>车联网适配器</item>
+        <item>语音提示器</item>
+        <item>电脑报站器</item>
+        <item>智能公交一体机</item>
+        <item>中门监视器</item>
+        <item>路牌控制器</item>
+        <item>GPS监控车载终端</item>
+        <item>硬盘视频终端</item>
+        <item>行车记录仪</item>
+        <item>液晶电视</item>
+        <item>硬盘播放器</item>
+        <item>公交海螺摄像头</item>
+        <item>公交倒车防水摄像头</item>
+        <item>公交投币机</item>
+        <item>调度屏</item>
+        <item>银护卫</item>
+        <item>红外摄像机（飞碟型）</item>
+        <item>车内屏</item>
+        <item>车内乘客导乘牌</item>
+        <item>客流分析仪</item>
+        <item>CAN控制器</item>
+        <item>电子站牌</item>
+    </string-array>
+
+    <string-array name="Pro_Name3">
+        <item>P7</item>
+        <item>P8</item>
+        <item>P8.5</item>
+        <item>P9</item>
+        <item>P10.2</item>
+        <item>P8.2T</item>
+        <item>P9T</item>
+        <item>P10T</item>
+        <item>P8.2Y</item>
+        <item>P7.6*6</item>
+        <item>DK888</item>
+        <item>小K888</item>
+        <item>雪花888</item>
+        <item>888</item>
+        <item>28.5</item>
+        <item>36.6</item>
+        <item>37</item>
+        <item>38</item>
+        <item>外形A（甲天行）</item>
+        <item>外形B（鲲博7寸）</item>
+        <item>外形C（海康）</item>
+        <item>通讯方式232</item>
+        <item>通讯方式232+485</item>
+        <item>外形A（宿迁）</item>
+        <item>外形B（武汉蓝台）</item>
+        <item>外形C（赛威）</item>
+        <item>一代（原协议转接盒）</item>
+        <item>二代（增加GPS模块）</item>
+        <item>三代（综合板）</item>
+        <item>四代（三代基础上优化）</item>
+        <item>8字</item>
+        <item>12字</item>
+        <item>液晶电视</item>
+        <item>车载电视一体机</item>
+        <item>海康</item>
+        <item>大华</item>
+        <item>一代</item>
+        <item>P7.6*7.6</item>
+        <item>锐明</item>
+        <item>通力</item>
+        <item>232通讯(A)</item>
+        <item>485通讯(B)</item>
+    </string-array>
+
+    <string-array name="Pro_Date">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="bus_station_broadcaster"><!--电脑报站器版本-->
+        <item>V3.6</item>
+        <item>V3.7</item>
+    </string-array>
+    <string-array name="DDP"><!--调度屏-->
+        <item>A1屏</item>
+        <item>A2屏</item>
+    </string-array>
+
+    <string-array name="Sdv">
+        <item>V1.0</item>
+        <!--<item>Android版</item>-->
+    </string-array>
+
+    <string name="remark">
+        "   注：不设置则返回当月记录,若设置开始不设置截至,截至时间默认设置当天日期"
+    </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--接口地址-->
+    <string name="interface_address">http://www.56gps.cn/oaweb/WebApi/</string>
+    <!--(登录)维修接口api名称-->
+    <string name="interface_name">api_maintorder.aspx?</string>
+    <!--安装调试单接口api名称-->
+    <string name="interface_install_name">api_installorders.aspx?</string>
+    <!--搜索客户接口-->
+    <string name="interface_seek_customer">api_customer.aspx?</string>
+
+    <string name="mistake_404">404请求接口出错,请联系技术人员</string>
+    <string name="mistake_400">400系统错误,请联系技术人员</string>
+    <string name="mistake_500">500请求参数出错,请联系技术人员</string>
+    <string name="noNetwork">请检查手机网络!</string>
+    <string name="mistake_dataResolve">服务器未能返回正常数据,请联系技术人员</string>
+    <string name="mistake_unknown">未知错误,请联系技术人员</string>
+
+    <!--数据库操作结果-->
+    <string name="sql_save_ok">保存成功</string>
+    <string name="sql_save_error">保存失败\r\n请重启软件或者联系技术人员</string>
+    <string name="sql_database_null">数据库未打开\r\n请重启软件或联系技术人员</string>
+
+    <!--技术支持电话-->
+    <string name="technical_support"><u>15088905036</u></string>
+
+    <!--服务器地址-->
+    <string name="service_address">http://www.56gps.cn/server_repair.xml</string>
+    <!--版本更新内容-->
+    <string name="update_content">
+        更新内容 \r\n1、修复BUG:在获取订单出错时，无法下拉刷新重新获取 \r\n2、新增功能:在线更新功能
+    </string>
+
+    <!--用户所属区域——公交-->
+    <string name="login_bus">2</string>
+    <!--用户所属区域——公路-->
+    <string name="login_higway">3</string>
+
+    <!--广播刷新界面-->
+    <string name="refresh">refresh</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#fff"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/sbmessage.show"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="产品名称/型号:"
+            />
+
+        <EditText
+            android:id="@+id/etPro_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入产品名称"
+
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/sbmessage.show"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="车牌号/自编号:"
+            />
+
+        <EditText
+            android:id="@+id/etVehCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="不区分大小写"
+            android:minWidth="200dp"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/sbmessage.show"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="故障描述:"
+            />
+
+        <EditText
+            android:id="@+id/et_ShowCause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="故障描述"
+            android:minWidth="200dp"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+
+</LinearLayout>

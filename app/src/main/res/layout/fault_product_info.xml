@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_view_shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_order_type"
+            style="@style/product_record2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="故障设备信息记录"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/product_record1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="订单编号:"
+                />
+
+            <TextView
+                android:id="@+id/tv_installContactListId"
+                style="@style/product_record2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                style="@style/product_record1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加时间:"
+                />
+
+            <TextView
+                android:id="@+id/tv_addTime"
+                style="@style/product_record2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/product_record1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="设备编号:"
+                />
+
+            <TextView
+                android:id="@+id/tv_product_code"
+                style="@style/product_record2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/product_record1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="产品名称:"
+                />
+
+            <TextView
+                android:id="@+id/tv_product_name"
+                style="@style/product_record2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/product_record1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="故障原因:"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_fault_cause"
+                    style="@style/product_record2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/product_record1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="维修结果:"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_result_maint"
+                    style="@style/product_record2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/product_record1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="备         注:"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_remark"
+                    style="@style/product_record2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

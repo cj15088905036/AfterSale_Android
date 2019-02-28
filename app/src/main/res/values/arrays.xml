@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bus_product_name">
+        <item>图岳</item>
+        <item>图软</item>
+        <item>电子路牌</item>
+        <item>GPS外设</item>
+        <item>LCD车内导乘屏</item>
+        <item>车联网适配器</item>
+        <item>语音提示器</item>
+        <item>电脑报站器</item>
+        <item>智能公交一体机</item>
+        <item>中门监视器</item>
+        <item>路牌控制器</item>
+        <item>GPS监控车载终端</item>
+        <item>硬盘视频终端</item>
+        <item>行车记录仪</item>
+        <item>液晶电视</item>
+        <item>硬盘播放器</item>
+        <item>公交海螺摄像头</item>
+        <item>公交倒车防水摄像头</item>
+        <item>公交投币机</item>
+        <item>调度屏</item>
+        <item>银护卫</item>
+        <item>红外摄像机（飞碟型）</item>
+        <item>P7</item>
+        <item>P8</item>
+        <item>P8.5</item>
+        <item>P9</item>
+        <item>P10.2</item>
+        <item>P8.2T</item>
+        <item>P9T</item>
+        <item>P10T</item>
+        <item>P8.2Y</item>
+        <item>P7.6*6</item>
+        <item>DK888</item>
+        <item>小K888</item>
+        <item>雪花888</item>
+        <item>888</item>
+        <item>28.5</item>
+        <item>36.6</item>
+        <item>37</item>
+        <item>38</item>
+        <item>外形A（甲天行）</item>
+        <item>外形B（鲲博7寸）</item>
+        <item>外形C（海康）</item>
+        <item>通讯方式232</item>
+        <item>通讯方式232+485</item>
+        <item>外形A（宿迁）</item>
+        <item>外形B（武汉蓝台）</item>
+        <item>外形C（赛威）</item>
+        <item>一代（原协议转接盒）</item>
+        <item>二代（增加GPS模块）</item>
+        <item>三代（综合板）</item>
+        <item>四代（三代基础上优化）</item>
+        <item>8字</item>
+        <item>12字</item>
+        <item>液晶电视</item>
+        <item>车载电视一体机</item>
+        <item>海康</item>
+        <item>大华</item>
+        <item>一代</item>
+        <item>V3.6</item>
+        <item>V3.7</item>
+        <item>WinCE版</item>
+        <item>Android版</item>
+    </string-array>
+
+
+    <string-array name="higway_product_type">
+        <item>部标机</item>
+        <item>GPS</item>
+        <item>定位器</item>
+        <item>4G视频</item>
+        <item>探头</item>
+    </string-array>
+
+    <string-array name="higway_product_name">
+        <item>恒领部标机</item>
+        <item>中导部标机</item>
+        <item>华宝部标机</item>
+        <item>鸿泉部标机</item>
+        <item>银管家2代</item>
+        <item>银护卫3代</item>
+        <item>车载终端定位器</item>
+        <item>海康5504硬盘录像机</item>
+        <item>锐明硬盘录像机</item>
+        <item>海康6mm</item>
+        <item>海康2.8mm</item>
+    </string-array>
+
+
+</resources>

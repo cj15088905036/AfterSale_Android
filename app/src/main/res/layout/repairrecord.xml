@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:orientation="vertical"
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@color/new_soft"
+        >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/arrow"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="设备维修记录"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvRepairCord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:divider="#cbcdcf"
+        android:layout_marginRight="12dp"
+        android:scrollbars="none"
+        >
+    </ListView>
+</LinearLayout>

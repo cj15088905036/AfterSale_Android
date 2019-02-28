@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="horizontal"
+    >
+
+    <!--  <LinearLayout
+          android:id="@+id/ll_item"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >-->
+
+    <LinearLayout
+        android:id="@+id/ll_num"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="序号"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_productName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_productName"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="产品名称/类型"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_productCarNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_productCarNumber"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="车号/自编号"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_fault_description"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_fault_description"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="故障描述"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+        <ImageButton
+            android:id="@+id/ib_delete"
+            android:layout_width="40dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/delete_product"/>
+    </LinearLayout>
+
+
+</LinearLayout>

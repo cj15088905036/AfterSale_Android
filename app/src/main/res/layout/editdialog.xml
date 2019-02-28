@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:minWidth="280dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/DialogText.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:background="#ffffff"
+
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/message"
+            style="@style/DialogText"
+             android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="@drawable/search_dropdown"
+            android:layout_width="fill_parent"
+            android:paddingLeft="5dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/positiveButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_dialog"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/negativeButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_dialog"
+            android:singleLine="true" />
+    </LinearLayout>
+
+</LinearLayout>

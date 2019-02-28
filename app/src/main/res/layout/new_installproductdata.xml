@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_producttype_1"
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tv_producttype"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_productname_1"
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tv_productname"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_productnum_1"
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tv_productnum"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_productremark_1"
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tv_productremark"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/choosecity"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/toplayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:background="@color/new_soft"
+        >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/arrow"
+            android:onClick="btn_click"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20.0dip"
+            android:gravity="center"
+            android:text="编辑站点"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+    <!--   <View
+           android:layout_width="fill_parent"
+           android:layout_height="3dip"
+           android:background="@drawable/search_idc_focus" />-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="15.0dip"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="0dip"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/msg_rec"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center"
+                    android:hint="输入站点名"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="60sp"
+            android:layout_height="35sp"
+            android:layout_gravity="top"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/new_click_down"
+            android:onClick="btn_click"
+            android:text="插入"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/remind"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="20.0dip"
+        android:text="点击站点改变插入位置(下次插入:1)"
+        android:textColor="#000000"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="7">
+
+        <RelativeLayout
+            android:id="@+id/ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#F5F5F5">
+
+            <TextView
+                android:id="@+id/updown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="10dip"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="6dip"
+                android:text="上行"
+                android:textColor="#999"
+                />
+
+            <!--<TextView
+                android:id="@+id/addinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@id/updown"
+                android:gravity="left|center_vertical"
+                android:text="编号/站名(定位时间)/进站/出站"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />-->
+
+            <Button
+                android:id="@+id/changed"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/change"
+                android:onClick="btn_click"
+                />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ly"
+            android:cacheColorHint="#EFFAFF">
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

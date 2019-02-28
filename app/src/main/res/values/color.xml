@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="main_bar">#4FD2C2</color>
+    <color name="mip_cap">#232A2D</color>
+
+    <color name="red">#f00</color>
+    <color name="white">#fff</color>
+
+    <color name="login">#fee224</color>
+
+    <color name="new_soft">#2f6395</color> <!--新软件背景颜色-->
+    <color name="new_soft_font">#666</color>
+
+    <color name="odd">#c7e1f0</color>
+    <color name="first_color">#333</color>
+
+    <color name="up">#ff9000</color>
+
+    <color name="down">#fee224</color>
+
+    <color name="time">#39af60</color>
+
+    <color name="over_time">#fd3939</color>
+
+
+    <color name="product_head">#999</color>
+
+    <color name="product_background1">#f99</color>
+    <color name="product_background2">#A9D8C9</color>
+
+    <!--下拉刷新时间-->
+    <color name="gold">#b89766</color>
+</resources>

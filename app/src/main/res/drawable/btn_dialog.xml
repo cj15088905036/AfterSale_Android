@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 默认时的背景图片-->
+    <item android:state_focused="true" >
+        <color android:color="#EFEFEF"/>  
+    </item>
+     
+    <item android:state_pressed="true" >
+    <color android:color="#EFEFEF"/>    
+    </item>
+    <item android:drawable="@drawable/dialogue_button">
+        <color android:color="#444444"/>    
+         </item>
+</selector>

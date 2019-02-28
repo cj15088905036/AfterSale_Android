@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#fff"
+              android:orientation="vertical"
+    >
+
+    <!--<TextView
+        android:id="@+id/tv_product_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/list_view_shape"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="设备编号:"
+                />
+
+            <TextView
+                android:id="@+id/tv_product_number"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="145dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="产品名称:"
+                />
+
+            <TextView
+                android:id="@+id/tv_product_name"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="车  牌  号:"
+                />
+
+            <TextView
+                android:id="@+id/tv_car_number"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_product_sim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="SIM 卡号:"
+                />
+
+            <TextView
+                android:id="@+id/tv_product_sim"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="故障原因:"
+                />
+
+            <TextView
+                android:id="@+id/tv_fault_description"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="维修结果:"
+                />
+
+            <TextView
+                android:id="@+id/tv_result_maint"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_cost_material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="材  料  费:"
+                />
+
+            <TextView
+                android:id="@+id/tv_cost_material"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_cost_maintenance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="人  工  费:"
+                />
+
+            <TextView
+                android:id="@+id/tv_cost_maintenance"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_cost_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="总  费  用:"
+                />
+
+            <TextView
+                android:id="@+id/tv_cost_all"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_installaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="安装地址:"
+                />
+
+            <TextView
+                android:id="@+id/tv_installaddress"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_installtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="安装时间:"
+                />
+
+            <TextView
+                android:id="@+id/tv_installtime"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

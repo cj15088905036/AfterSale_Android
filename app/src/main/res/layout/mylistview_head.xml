@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="vertical"
+              android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="订单类型:"/>
+
+        <TextView
+            android:id="@+id/tv_order_type_bf"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="维修状态:"/>
+
+        <TextView
+            android:id="@+id/tv_order_state_bf"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_customer_over"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_customer_appraise_bf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="客户评价:"/>
+
+            <TextView
+                android:id="@+id/tv_customer_appraise_bf"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_customer_feedback_bf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="客户反馈:"/>
+
+            <TextView
+                android:id="@+id/tv_customer_feedback_bf"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_remark_RepairOrInstall"
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="维修备注:"/>
+
+        <TextView
+            android:id="@+id/tv_repair_remark_bf"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="下单日期:"/>
+
+        <TextView
+            android:id="@+id/tv_time_single_bf"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/fix_baseMessage.text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="派单日期:"/>
+
+        <TextView
+            style="@style/fix_baseMessage.text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="派单日期"/>
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="截止日期:"/>
+
+        <TextView
+            android:id="@+id/tv_time_deadline_bf"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_time_complete_bf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="完成时间:"/>
+
+        <TextView
+            android:id="@+id/tv_time_complete_bf"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="派  单  员:"/>
+
+        <TextView
+            android:id="@+id/tv_order_singler_bf"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/basefragment_text_type1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="联系方式:"/>
+
+        <TextView
+            android:id="@+id/tv_singler_phone_bf"
+            style="@style/basefragment_text_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#e8eced"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_repair_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="客        户:"/>
+
+            <TextView
+                android:id="@+id/tv_customer_name_bf"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="联  系  人:"/>
+
+            <TextView
+                android:id="@+id/tv_customer_person_bf"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="联系方式:"/>
+
+            <TextView
+                android:id="@+id/tv_customer_personphone_bf"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/basefragment_text_type1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="维修地址:"/>
+
+            <TextView
+                android:id="@+id/tv_customer_address_bf"
+                style="@style/basefragment_text_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_install_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            style="@style/basefragment_text_type1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="订单单位:"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/basefragment_text_type1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="客        户:"/>
+
+                <TextView
+                    android:id="@+id/tv_p_customer_bf"
+                    style="@style/basefragment_text_type2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/basefragment_text_type1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="联  系  人:"/>
+
+                <TextView
+                    android:id="@+id/tv_p_personname_bf"
+                    style="@style/basefragment_text_type2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/basefragment_text_type1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="联系方式:"/>
+
+                <TextView
+                    android:id="@+id/tv_p_phone_bf"
+                    style="@style/basefragment_text_type2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/basefragment_text_type1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="维修地址:"/>
+
+                <TextView
+                    android:id="@+id/tv_p_address_bf"
+                    style="@style/basefragment_text_type2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/basefragment_text_type1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="使用单位:"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/basefragment_text_type1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="客        户:"/>
+
+                <TextView
+                    android:id="@+id/tv_c_customer_bf"
+                    style="@style/basefragment_text_type2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/basefragment_text_type1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="联  系  人:"/>
+
+                <TextView
+                    android:id="@+id/tv_c_personname_bf"
+                    style="@style/basefragment_text_type2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/basefragment_text_type1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="联系方式:"/>
+
+                <TextView
+                    android:id="@+id/tv_c_phone_bf"
+                    style="@style/basefragment_text_type2"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/basefragment_text_type1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="维修地址:"/>
+
+                <TextView
+                    android:id="@+id/tv_c_address_bf"
+                    style="@style/basefragment_text_type2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_repairOrInstall_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>

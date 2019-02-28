@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_first_day"
+            android:layout_width="112dp"
+            android:background="@drawable/head_tab_1"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:hint="开始日期"
+            android:textColor="#000"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="14dp"
+            android:layout_height="wrap_content"
+            android:text="—"
+            android:textColor="#bbb"/>
+
+        <TextView
+            android:id="@+id/tv_last_day"
+            android:layout_width="112dp"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:hint="截止日期"
+            android:background="@drawable/head_tab_1"
+            android:textColor="#000"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/btn_seek"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/new_click_down"
+            android:text="搜索"
+            android:textColor="#fff"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_repair_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_install_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="16sp"
+        />
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/remark"
+        android:textColor="#f00"
+        android:textSize="15dp"/>-->
+
+    <ListView
+        android:id="@+id/lv_completeOver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:divider="#cbcdcf"
+        android:scrollbars="none">
+    </ListView>
+    
+</LinearLayout>

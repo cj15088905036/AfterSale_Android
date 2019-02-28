@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dialog"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#fff"
+              android:orientation="vertical"
+              >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="用户名："
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/etCutName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip"
+            android:singleLine="true"
+            android:hint="请输入用户名"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvpwd"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="密    码："
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/etCutPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="100dip"
+            android:hint="请输入密码"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

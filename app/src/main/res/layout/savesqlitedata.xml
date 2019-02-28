@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/list_view_shape"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_product_code"
+                style="@style/save_data"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:hint="产品序列号"
+
+                />
+
+
+            <TextView
+                android:id="@+id/tv_veh_code"
+                style="@style/save_data"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="车牌号/自编号"
+                android:layout_marginLeft="10dp"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/tv_product_code"
+                />
+
+            <!--<TextView
+                android:id="@+id/tv_input_time"
+                style="@style/save_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/tv_product_code"
+                android:gravity="center"
+                android:hint="录入时间(暂无)"
+                android:minWidth="120dp"
+                />-->
+
+            <TextView
+                android:id="@+id/tv_product_state"
+                style="@style/save_data"
+                android:layout_width="65dp"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:hint="订单状态"
+
+                />
+
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/tv_fault_cause"
+            style="@style/save_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="故障原因(维修单)"/>
+
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="灰色字体是没有填写的信息"
+            android:textColor="#f00"/>-->
+
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_product_list"
+                style="@style/save_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:hint="设备序列号"
+                android:minWidth="145dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_state"
+                style="@style/save_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:hint="订单状态"
+
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_vehCode"
+                style="@style/save_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="车牌号"
+                android:minWidth="70dp"
+                />
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
