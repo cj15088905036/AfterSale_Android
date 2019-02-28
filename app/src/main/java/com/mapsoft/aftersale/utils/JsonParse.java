@@ -268,6 +268,7 @@ public class JsonParse {
      */
     public static List<Map<String, String>> analysisProductRepairRecordByHigway(String json) {
         List<Map<String, String>> list = new ArrayList<Map<String, String>>();
+
         try {
             JSONArray array = new JSONArray(new String(json));
             for (int i = 0; i < array.length(); i++) {
